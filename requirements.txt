@@ -2,4 +2,5 @@ numpy
 pandas
 matplotlib
 requests
+scipy
 jupyterlab

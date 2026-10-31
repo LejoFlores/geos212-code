@@ -15,9 +15,10 @@ GEOS 212 follows water through the Boise River basin over one water year (Octobe
 | Module | Notebook | Data | Open in Colab |
 |---|---|---|---|
 | 04 Snow drought | [Snow drought in the Boise Mountains](notebooks/04_snow_drought.ipynb): WY2023 (snowy) vs WY2026 (snow drought), rain vs snow, warm vs dry snow drought, what the river did | NRCS SNOTEL 978, 637, 306; USGS 13185000 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LejoFlores/geos212-code/blob/main/notebooks/04_snow_drought.ipynb) |
+| 05 Snowpack and forecasting | [From snowpack to streamflow forecast](notebooks/05_snow_to_streamflow_forecast.ipynb): April 1 SWE vs April-July volume, a least-squares forecast for 2026 with uncertainty, snow densification | NRCS SNOTEL 312; USGS 13235000 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LejoFlores/geos212-code/blob/main/notebooks/05_snow_to_streamflow_forecast.ipynb) |
 | 10 Rivers | [A natural river and a managed river](notebooks/10_natural_vs_regulated.ipynb): Twin Springs vs Glenwood Bridge, flow duration curves | USGS 13185000, 13206000 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LejoFlores/geos212-code/blob/main/notebooks/10_natural_vs_regulated.ipynb) |
 
-More notebooks will be added as more slides get real-data figures (next up: Module 05 snowpack and streamflow forecasting, and a Module 10 rating curve).
+More notebooks will be added as more slides get real-data figures (next up: a Module 10 rating curve).
 
 ## How to run the notebooks
 
