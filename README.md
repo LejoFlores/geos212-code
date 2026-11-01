@@ -20,6 +20,7 @@ GEOS 212 follows water through the Boise River basin over one water year (Octobe
 | 05 Snowpack and forecasting | [From snowpack to streamflow forecast](notebooks/05_snow_to_streamflow_forecast.ipynb): April 1 SWE vs April-July volume, a least-squares forecast for 2026 with uncertainty, snow densification | NRCS SNOTEL 312; USGS 13235000 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LejoFlores/geos212-code/blob/main/notebooks/05_snow_to_streamflow_forecast.ipynb) |
 | 10 Rivers | [A natural river and a managed river](notebooks/10_natural_vs_regulated.ipynb): Twin Springs vs Glenwood Bridge, flow duration curves | USGS 13185000, 13206000 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LejoFlores/geos212-code/blob/main/notebooks/10_natural_vs_regulated.ipynb) |
 | 10 Rivers | [Building a rating curve](notebooks/10b_rating_curve.ipynb): pairing USGS field measurements, fitting Q = C(h − e)^b, and how the rating shifted after the 2017 flood | USGS 13206000 field measurements | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LejoFlores/geos212-code/blob/main/notebooks/10b_rating_curve.ipynb) |
+| 11 Groundwater | [Weighing the water under the Snake River Plain](notebooks/11_grace_groundwater.ipynb): GRACE satellite total water storage, seasonal cycle vs. wet and dry years, trend, and converting to acre-feet | NASA/JPL GRACE and GRACE-FO | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LejoFlores/geos212-code/blob/main/notebooks/11_grace_groundwater.ipynb) |
 
 More notebooks will be added as more slides get real-data figures.
 
@@ -46,6 +47,7 @@ Every notebook downloads its data live from the agency that collects it:
 
 * **NRCS SNOTEL** snowpack, precipitation, and temperature, through the [Report Generator](https://wcc.sc.egov.usda.gov/reportGenerator/).
 * **USGS NWIS** daily streamflow, through [waterservices.usgs.gov](https://waterservices.usgs.gov/).
+* **NASA/JPL GRACE and GRACE-FO** satellite gravity (total water storage), from [PO.DAAC](https://podaac.jpl.nasa.gov/). Also needs an Earthdata account, so the notebook uses a saved regional summary.
 * **NASA GPM IMERG** satellite precipitation, from [NASA GES DISC](https://disc.gsfc.nasa.gov/). Downloading it needs a free [NASA Earthdata](https://urs.earthdata.nasa.gov/) account, so these notebooks use summarized copies saved in `data/` and show the download code as an optional step.
 * **USGS Water Data API** stream gaging field measurements, through [api.waterdata.usgs.gov](https://api.waterdata.usgs.gov/).
 
