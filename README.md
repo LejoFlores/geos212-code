@@ -23,6 +23,7 @@ GEOS 212 follows water through the Boise River basin over one water year (Octobe
 | 10 Rivers | [A natural river and a managed river](notebooks/10_natural_vs_regulated.ipynb): Twin Springs vs Glenwood Bridge, flow duration curves | USGS 13185000, 13206000 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LejoFlores/geos212-code/blob/main/notebooks/10_natural_vs_regulated.ipynb) |
 | 10 Rivers | [Building a rating curve](notebooks/10b_rating_curve.ipynb): pairing USGS field measurements, fitting Q = C(h − e)^b, and how the rating shifted after the 2017 flood | USGS 13206000 field measurements | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LejoFlores/geos212-code/blob/main/notebooks/10b_rating_curve.ipynb) |
 | 11 Groundwater | [Weighing the water under the Snake River Plain](notebooks/11_grace_groundwater.ipynb): GRACE satellite total water storage, seasonal cycle vs. wet and dry years, trend, and converting to acre-feet | NASA/JPL GRACE and GRACE-FO | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LejoFlores/geos212-code/blob/main/notebooks/11_grace_groundwater.ipynb) |
+| 11 Groundwater | [Falling water levels in the Eastern Snake Plain Aquifer](notebooks/11b_espa_wells.ipynb): 70 years of well measurements, change from a baseline, decline rates, a 17-well map, and why levels are falling | USGS well field measurements; Idaho Dept. of Water Resources | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LejoFlores/geos212-code/blob/main/notebooks/11b_espa_wells.ipynb) |
 
 More notebooks will be added as more slides get real-data figures.
 
@@ -52,7 +53,8 @@ Every notebook downloads its data live from the agency that collects it:
 * **NASA SnowEx, SMAP and MODIS** (snow pits, soil moisture, snow cover), from [NSIDC](https://nsidc.org/). These also need an Earthdata account, so the notebooks use saved summary tables.
 * **NASA/JPL GRACE and GRACE-FO** satellite gravity (total water storage), from [PO.DAAC](https://podaac.jpl.nasa.gov/). Also needs an Earthdata account, so the notebook uses a saved regional summary.
 * **NASA GPM IMERG** satellite precipitation, from [NASA GES DISC](https://disc.gsfc.nasa.gov/). Downloading it needs a free [NASA Earthdata](https://urs.earthdata.nasa.gov/) account, so these notebooks use summarized copies saved in `data/` and show the download code as an optional step.
-* **USGS Water Data API** stream gaging field measurements, through [api.waterdata.usgs.gov](https://api.waterdata.usgs.gov/).
+* **USGS Water Data API** stream gaging and groundwater-level field measurements, through [api.waterdata.usgs.gov](https://api.waterdata.usgs.gov/).
+* **Idaho Department of Water Resources** groundwater levels, through its [groundwater data portal](https://idwr-groundwater-data.idaho.gov/).
 
 A copy of each file is saved in [`data/`](data/). If a download fails (no internet, or an agency changes its website, which happens), the notebooks automatically use the saved copy, so they keep working.
 
